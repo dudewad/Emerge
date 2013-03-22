@@ -6,6 +6,8 @@
  */
 
 class App{
+    //Contains the app config
+    private $config;
     //Will contain the name of the current page
     private $currentPage;
     //Will contain all current page content
@@ -19,6 +21,8 @@ class App{
     public function __construct($config){
         $this->config = $config;
         $this->currentPage = isset($_REQUEST['p']) ? $_REQUEST['p'] : 'home';
+        require_once("/../FooterStrings.php");
+        $this->footerStrings = $footerStrings;
         //Include the current page file or revert to index
         $page = __DIR__ . "/../../includes/pages/" . $this->currentPage . ".php";
         if(file_exists($page))
@@ -42,6 +46,22 @@ class App{
 
         return $data;
     } //End content()
+
+
+
+    /**
+     * @return string HTML string representing the site footer div
+     */
+    public function footer(){
+        $quote = isset($this->footerStrings[$this->currentPage]) ? $this->footerStrings[$this->currentPage] : "";
+        $data =  "<div id='footer'>
+                        <div class='left'>Copyright 2013 | Embodied Youth Proeductions</div>
+                        <div class='right'>$quote</div>
+                        <div class='clear'></div>
+                 </div>";
+
+        return $data;
+    } //End footer()
 
 
 
@@ -82,6 +102,15 @@ class App{
     } //End header()
 
 
+    /**
+     * Return the name of the current page
+     * @return string The name of the current page
+     */
+    public function getCurrentPageName(){
+        return $this->currentPage;
+    } //End getCurrentPageName()
+
+
 
     /**
      * @return string HTML String representing the site nav
@@ -89,7 +118,9 @@ class App{
     private function nav(){
         $data = "<ul id='siteNav'>";
         foreach ($this->config['nav']['links'] as $key => $value){
-            $class = strtolower($key) == strtolower($this->currentPage) ? " class='currentPage'" : '';
+            $target = preg_split("/=/", $value);
+            $check = isset($target[1]) ? $target[1] : "home";
+            $class = $check == strtolower($this->currentPage) ? " class='currentPage'" : '';
             $data .= "<li $class ><a href='$value'>$key</a></li>";
         }
         $data .= "</ul>";

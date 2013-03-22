@@ -8,7 +8,7 @@ include_once("includes/config.php");
 include_once("includes/class/App.php");
 $app = new App($config);
 ?>
-<html>
+<html class="<?php echo $app->getCurrentPageName();?>">
     <?php echo $app->head(); ?>
     <body>
         <?php

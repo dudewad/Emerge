@@ -33,7 +33,7 @@ $config['connection']['dbPassword'] = '(Ghost117!)';
 ________________________URL Array_____________________________*/
 
 //Site Base URL (this will be used to build URLs)
-$config['url']['main'] =  'http://localhost/emerge/';
+$config['url']['main'] =  'http://ghostlaptop/emerge/';
 //$config['url']['main'] =  'http://www.embodiedyouth.org/';
 
 //Program
@@ -60,9 +60,9 @@ ___________________________NAV MENU___________________________*/
 
 //This array holds the name/url pairs of all links in the nav
 $config['nav']['links'] = array('Home' => $config['url']['main'],
-                                'Program' => $config['url']['program'],
-                                'Place' => $config['url']['place'],
-                                'People' => $config['url']['people'],
-                                'Application' => $config['url']['application'],
+                                'The Curriculum' => $config['url']['program'],
+                                'The Place' => $config['url']['place'],
+                                'The Team' => $config['url']['people'],
+                                'Apply' => $config['url']['application'],
                                 'Contact' => $config['url']['contact']);
 ?>
