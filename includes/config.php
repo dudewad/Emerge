@@ -49,7 +49,10 @@ $config['url']['people'] = $config['url']['main'] . '?p=people';
 $config['url']['application'] = $config['url']['main'] . '?p=application';
 
 //Contact
-$config['url']['contact'] = $config['url']['main'] . '?p=contact';
+$config['url']['contact'] = $config['url']['main'] . '?p=application#contact';
+
+//Actual application link
+$config['url']['applicationLink'] = '';
 
 
 

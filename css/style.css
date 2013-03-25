@@ -55,6 +55,14 @@ p{
     line-height:1.5;
 }
 
+a{
+    color:#FFF;
+}
+
+a:hover{
+    color: #c9c6a2;
+}
+
 /**
  * Header styles
  */
@@ -196,6 +204,18 @@ p{
     padding:30px 20px;
 }
 
+.contentBodyType4{
+    background-color:#242729;
+    padding:30px 20px;
+    color:#e6e3bb;
+}
+
+.contentBodyType5{
+    background-color:#323639;
+    padding:30px;
+    color:#e6e3bb;
+}
+
 .contentBodyType1 h1,
 .contentBodyType1 h2,
 .contentBodyType1 h3,
@@ -221,6 +241,12 @@ p{
     text-align:center;
 }
 
+.centered{
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
 .textNormal{
     font-weight:normal !important;
 }
@@ -243,8 +269,15 @@ p{
     float:left;
 }
 
+.two-column{
+    width:450px;
+    padding-left:30px;
+    float:left;
+}
+
 .subtitle{
     font-size:12px;
+    margin-top:10px;
 }
 
 .left{
@@ -258,6 +291,24 @@ p{
 .clear{
     clear:both;
 }
+
+.no-padding-hor{
+    padding-left:0;
+    padding-right:0;
+}
+
+.fillImage{
+    padding-top:20px;
+}
+
+.titlePadding{
+    padding-bottom:20px;
+}
+
+.bottomMargin{
+    margin-bottom:30px;
+}
+
 
 /**
  * Home page
@@ -333,6 +384,30 @@ p{
     background:url("../images/program-poem-background.jpg");
 }
 
+
+
+/**
+ * Place page
+ */
+
+
+
+/**
+ * Team page
+ */
+.teamContent{
+    border:5px solid #3399cc;
+    background-color:#323639;
+    padding:20px 130px;
+}
+
+.bioImage{
+    margin:10px 0 30px 0;
+    padding:0px;
+}
+
+
+
 /**
  * Footer
  */
@@ -346,4 +421,13 @@ p{
     font-size:11px;
     padding:20px;
     margin-bottom:80px;
+}
+
+
+
+/**
+ * Slideshow
+ */
+.slideshow{
+    border:5px solid #871f07;
 }

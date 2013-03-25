@@ -10,9 +10,7 @@ $pageContent = <<<HTML
 <!-- NO CONTENT ABOVE THIS LINE -->
 <img src="images/logo-large.png" class="logoLarge" alt="Emerge!"/>
 <img class="mainBanner" src="images/index-title-banner.png" alt="Emerge!">
-<div class="slideshow">
-
-</div>
+<img src="images/place-slideshow-1.jpg" alt="Emerge!" class="slideshow bottomMargin centered"/>
 
 <img src="images/color-bar-home.png" class="colorBar" alt="Emerge!"/>
 
