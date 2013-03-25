@@ -21,4 +21,4 @@ $footerStrings['people'] = '"to loosen my heart until it becomes a wing, a torch
 $footerStrings['application'] = '"To live so that which came to me as seed goes to the next as blossom,"';
 
 //Contact
-$footerStrings['contact'] = "";
+$footerStrings['contact'] = '"And that which came to me as blossom/ goes on as fruit."';
