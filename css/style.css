@@ -241,6 +241,10 @@ a:hover{
     text-align:center;
 }
 
+.textNotCentered{
+    text-align:left;
+}
+
 .centered{
     margin-left:auto;
     margin-right:auto;
@@ -430,4 +434,23 @@ a:hover{
  */
 .slideshow{
     border:5px solid #871f07;
+    width:729px;
+    height:284px;
+    overflow:hidden;
+}
+
+.slideshowOverlay{
+    z-index:500;
+}
+
+.backButton, .nextButton{
+    width:43px;
+    height:48px;
+    display:block;
+    background:url("../images/back-button.png");
+    cursor:pointer;
+}
+
+.nextButton{
+    background:url("../images/next-button.png");
 }

@@ -73,6 +73,9 @@ class App{
                     <meta charset='utf-8' />
                     <meta http-equiv='X-UA-Compatible' content='IE=edge' />
                     <link href='css/style.css' media='all' rel='stylesheet' type='text/css' />
+                    <script src='js/jquery-1.9.1.min.js' type='text/javascript' ></script>
+                    <script src='js/jquery.cycle.lite.js' type='text/javascript' ></script>
+                    <script src='js/app.js' type='text/javascript' ></script>
                     <link href='http://fonts.googleapis.com/css?family=Patrick+Hand+SC|Asap:400,400italic' rel='stylesheet' type='text/css'>
                 </head>";
 

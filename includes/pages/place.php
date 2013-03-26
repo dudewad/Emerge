@@ -15,7 +15,18 @@ $pageContent = <<<HTML
 <div class="contentBodyType2 textCenter">
     <h3 class="bodyFont textCenter">A Little Bit About the Whidbey Institute</h3>
     <p>A bit about the institute - mission, facilities, etc. Exciting! </p>
-    <img src="images/place-slideshow-1.jpg" alt="Emerge!" class="slideshow"/>
+    <div id="slideshow" class="slideshow bottomMargin centered textNotCentered">
+        <img src="images/slideshow/place/1.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/2.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/3.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/4.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/5.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/6.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/7.jpg" alt="Emerge!" class="slide"/>
+        <img src="images/slideshow/place/8.jpg" alt="Emerge!" class="slide"/>
+    </div>
+    <div class="slideshowOverlay" data-slideshow-id="slideshow"></div>
+
     <p>Today, the land itself is still called Chinook and the 70 acres of forest and meadow lands are protected by a conservation easement. Whidbey Institute has grown from inspiring idea to a fully operational Institute with professional staff, year-round programs, new and upgraded facilities and national outreach. The vision, commitment, hard work, and financial generosity of many people have made it possible and have given Whidbey Institute a strong base of experience, a wide range of friends, and wisdom born of honest endeavor over time.</p>
 </div>
 

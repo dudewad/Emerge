@@ -10,7 +10,17 @@ $pageContent = <<<HTML
 <!-- NO CONTENT ABOVE THIS LINE -->
 <img src="images/logo-large.png" class="logoLarge" alt="Emerge!"/>
 <img class="mainBanner" src="images/index-title-banner.png" alt="Emerge!">
-<img src="images/place-slideshow-1.jpg" alt="Emerge!" class="slideshow bottomMargin centered"/>
+<div id="slideshow" class="slideshow bottomMargin centered">
+    <img src="images/slideshow/place/1.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/2.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/3.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/4.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/5.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/6.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/7.jpg" alt="Emerge!" class="slide"/>
+    <img src="images/slideshow/place/8.jpg" alt="Emerge!" class="slide"/>
+</div>
+<div class="slideshowOverlay" data-slideshow-id="slideshow"></div>
 
 <img src="images/color-bar-home.png" class="colorBar" alt="Emerge!"/>
 
