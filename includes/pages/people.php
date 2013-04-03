@@ -23,12 +23,12 @@ $pageContent = <<<HTML
     <h3 class="bodyFont textCenter titlePadding">Bios</h3>
 
     <div class="two-column">
-        <p><strong>Porter</strong><br />
+        <p><strong>Porter Eichenlaub</strong><br />
         grew up running wild in the woods and fields of New England, and has devoted his life to creating alternative educational programs that empower children to become masters in crafting their own lives. He has worked with children extensively in a wide variety of educational settings from alternative elementary schools to summer camps, nannying to international college programs. He cares deeply about designing and facilitating programs that uncover and evolve each person’s innate wisdom, creativity, curiosity and wonder using the natural world, the body, and peers as unparalleled teachers and resources. He loves the constant and surprising joy of collaboratively creating with a small group of learners.</p>
     </div>
     <div class="two-column">
-        <p><strong>Cynthia</strong><br />
-        Iusto antehabeo loquor volutpat molior ad cogo bene nunc foras in lobortis vereor in. Esse hendrerit suscipit, nulla in luctus sed fatua, ne importunus enim vulputate modo obruo. Nonummy utrum consectetuer antehabeo mos populus similis dolore nulla feugiat nutus, iaceo typicus quis valetudo. Saluto oppeto fatua magna probo similis odio metuo praesent consectetuer. Quia, opto dolus ullamcorper delenit loquor tristique, hos ad loquor, neque volutpat, nostrud. Inhibeo neque minim abigo immitto cui. Natu suscipit vel vulputate capto modo accumsan incassum ut fatua facilisis dolor nimis luptatum loquor. Dolore aliquip probo esca ibidem quibus vel, ut regula turpis. </p>
+        <p><strong>Cynthia Kennedy</strong><br />
+        is a mother, a dancer, a doula, and a passionate lover of life, but she is best known as a deep and powerful teacher – of leadership, of writing, of yoga, and of the 5Rhythms movement meditation practice. She has been on the faculty at The Evergreen State College since 1998 where her main area of focus is embodied leadership, sustainability and consciousness studies.  With humor, wisdom, compassion and intelligence, she catalyzes change and helps people fall in love with themselves, guiding them on the great adventure of discovering their true selves.</p>
     </div>
     <div class="clear"></div>
 </div>

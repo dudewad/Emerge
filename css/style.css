@@ -261,6 +261,10 @@ a:hover{
     margin-bottom:0;
 }
 
+.contentBodyType1 a{
+    color:#8e4423;
+}
+
 .rightColLarge{
     width:650px;
     padding:20px;

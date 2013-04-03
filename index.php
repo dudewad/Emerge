@@ -4,8 +4,9 @@
  * Date: 3/15/13
  * Time: 12:47 PM
  */
-include_once("includes/config.php");
-include_once("includes/class/App.php");
+define("BASEDIR", __DIR__);
+include_once(BASEDIR . "/includes/config.php");
+include_once(BASEDIR . "/includes/class/App.php");
 $app = new App($config);
 ?>
 <html class="<?php echo $app->getCurrentPageName();?>">
