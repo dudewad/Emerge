@@ -52,18 +52,35 @@ $pageContent = <<<HTML
 
 <div class="contentBodyType3 textCenter">
     <div class="lowerHomeContent">
-        <img src="images/home-fill-1.jpg" alt="Emerge!" class="left"/>
-        <div class="right">
+        <img src="images/home-fill-1.jpg" alt="Emerge!" class="right"/>
+        <div class="left alignLeft">
             <h3>Who Should Apply?</h3>
-            <p>Today, most “emerging adults” are stuck inside an old narrative that assumes they will grow up, marry, have kids and find a stable job by their mid-twenties.  This is an outdated story! These markers of adulthood have been pushed out into the 30s and we are in the midst of a global crisis, surrounded by chaos. In order to thrive, we need a new story; we need community, creativity, ability, passion, commitment, vision, brilliance, and collaboration.</p>
+            <p>This retreat is for any and all young people who are burning to make a difference in the world!
+            <br />If you are:</p>
+            <ul>
+                <li>exploratory and full of fire with a sense of responsibility for yourself and for others</li>
+                <li>AND are sometimes ambivalent, wary, and tentative...</li>
+                <li>looking for the deep support, mentorship, and community that characterizes someone in early adulthood</li>
+                <li>engaged in the task of making and remaking meaning smack dab in the middle of a culture that is doing exactly the same thing – making and remaking itself</li>
+                <li>ready to create fresh perspectives and discover new possibilities for leading a humane life</li>
+            <p>Then this retreat is for you!</p>
         </div>
+        <div class="clear"></div>
     </div>
 
     <div class="lowerHomeContent">
         <img src="images/home-fill-2.jpg" alt="Emerge!" class="right"/>
-        <div class="left">
-            <h3>What to Expect</h3>
-            <p>Emerge! calls home the soul of young people and helps us weave a thread between our own unique story, our larger cultural story, and the global challenges and opportunities facing the planet in the 21st century.  Set among 70 secluded acres of forest on Whidbey Island in Washington, and staffed by an intergenerational team of teachers, it is founded on the belief that as we transition from adolescence to adulthood we have the potential to become truly alive, to align with our wild passions and to become successful creators of society instead of consumers.</p>
+        <div class="left alignLeft">
+            <h3>What We Offer</h3>
+            <ul>
+                <li>Empowering Leadership skills</li>
+                <li>Self awareness and confidence building</li>
+                <li>Personal growth and catalytic change</li>
+                <li>Healing and transforming of the challenges from youth and building a bridge into adulthood</li>
+                <li>A community of friends that could last a lifetime</li>
+                <li>A deeper understanding of what it means to be a young adult in today’s world.</li>
+                <li>A chance to unearth your authentic purpose using movement, expressive arts, and talking circles.</li>
+            </ul>
         </div>
         <div class="clear"></div>
     </div>

@@ -14,10 +14,6 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
     display: block;
 }
 
-ol, ul {
-    list-style: none;
-}
-
 textarea, input { outline: none; }
 
 /**
@@ -153,8 +149,8 @@ a:hover{
 
 #header li{
     float:left;
-    margin-right:30px;
     font-size:14px;
+    margin:0 30px 0 0;
 }
 
 #header li.currentPage a{
@@ -317,6 +313,16 @@ a:hover{
     margin-bottom:30px;
 }
 
+.alignLeft{
+    text-align:left;
+}
+
+li{
+    margin-top:5px;
+    margin-left:40px;
+    line-height:1.5;
+}
+
 
 /**
  * Home page
@@ -345,10 +351,15 @@ a:hover{
 
 .lowerHomeContent {
     clear:both;
+    margin-bottom:20px;
+}
+
+.lowerHomeContent img{
+    margin-top:50px;
 }
 
 .lowerHomeContent h3{
-    margin:20px 0;
+    margin:0 0 20px 0;
     color:#8e4423;
 }
 
@@ -359,7 +370,6 @@ a:hover{
 .lowerHomeContent:last-child{
     padding-top:20px;
 }
-
 
 
 /**

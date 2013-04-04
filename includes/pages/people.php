@@ -28,7 +28,7 @@ $pageContent = <<<HTML
     </div>
     <div class="two-column">
         <p><strong>Cynthia Kennedy</strong><br />
-        is a mother, a dancer, a doula, and a passionate lover of life, but she is best known as a deep and powerful teacher – of leadership, of writing, of yoga, and of the 5Rhythms movement meditation practice. She has been on the faculty at The Evergreen State College since 1998 where her main area of focus is embodied leadership, sustainability and consciousness studies.  With humor, wisdom, compassion and intelligence, she catalyzes change and helps people fall in love with themselves, guiding them on the great adventure of discovering their true selves.</p>
+        is a mother, a dancer, a doula, and a passionate lover of life, but she is best known as a deep and powerful teacher – of leadership, of writing, of yoga, and of the 5Rhythms movement meditation practice. She was trained by Gabrielle Roth and has been teaching movement as a tool of transformation since 2007. She has been on the faculty at The Evergreen State College since 1998 where her main area of focus is embodied leadership, sustainability and consciousness studies.  With humor, wisdom, compassion and intelligence, she catalyzes change and helps people fall in love with themselves, guiding them on the great adventure of discovering their true selves.</p>
     </div>
     <div class="clear"></div>
 </div>

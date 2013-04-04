@@ -14,18 +14,6 @@ ________________________SETTINGS/MISC_________________________*/
 //Settings below (if applicable)
 $config['settings']['siteTitle'] = 'Emerge! - Embodied Leadership Retreat for a Rising Generation';
 
-//MySQL server address
-$config['connection']['mysqlserver'] = 'localhost';
-
-//MySQL DB
-$config['connection']['database'] = 'desmillc_gotan';
-
-//This is the name used for the public access account for the site
-$config['connection']['dbUser'] = 'desmillc_admin';
-
-//This is the password for the public access account
-$config['connection']['dbPassword'] = '(Ghost117!)';
-
 
 
 /*##############################################################
@@ -33,7 +21,7 @@ $config['connection']['dbPassword'] = '(Ghost117!)';
 ________________________URL Array_____________________________*/
 
 //Site Base URL (this will be used to build URLs)
-$config['url']['main'] =  'http://ghostlaptop/emerge/';
+$config['url']['main'] =  'http://localhost/emerge/';
 //$config['url']['main'] =  'http://www.embodiedyouth.org/';
 
 //Program
