@@ -21,7 +21,7 @@ class App{
     public function __construct($config){
         $this->config = $config;
         $this->currentPage = isset($_REQUEST['p']) ? $_REQUEST['p'] : 'home';
-        require_once("/../FooterStrings.php");
+        require_once(__DIR__ . "/../FooterStrings.php");
         $this->footerStrings = $footerStrings;
         //Include the current page file or revert to index
         $page = __DIR__ . "/../../includes/pages/" . $this->currentPage . ".php";
