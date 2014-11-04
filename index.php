@@ -16,5 +16,7 @@ $app = new App($config);
         echo $app->header();
         echo $app->content();
         ?>
+    Hey dudes
+    Some html changes bitches
     </body>
 </html>
